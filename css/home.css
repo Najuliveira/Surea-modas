@@ -1,0 +1,25 @@
+/* .corpo{
+    background-image:url('../imagens/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 3%;
+    height: 100vh;
+    margin-top: 13.1vh;
+    position: fixed;
+} */
+
+.header{
+    height: 15rem;
+}
+
+.logo{
+     margin-top: 5vh;
+     margin-left: 60vh;
+     height: 10vh;
+     transform: scale(1.4);
+}
+
+/* .navbar{
+    background-color: #99444b;
+} */
