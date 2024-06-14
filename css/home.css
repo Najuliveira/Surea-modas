@@ -6,3 +6,8 @@
     transform: scale(1.2);
 }
 
+#carouselExampleCaptions{
+    position: relative;
+    top: 28vh;
+}
+
