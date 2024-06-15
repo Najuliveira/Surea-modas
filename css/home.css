@@ -6,9 +6,9 @@
     transform: scale(1.2);
 }
 
-header{
+.navbar{
     position: fixed;
-    height: auto;
+    height: auto !important;
 }
 
 .superior{
@@ -22,7 +22,7 @@ header{
         margin-top: -8vh;
     }
 
-    header{
+    .navbar{
         height: 18vh;
     }
 
