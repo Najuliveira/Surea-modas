@@ -6,13 +6,14 @@
     transform: scale(1.2);
 }
 
-#carouselExampleCaptions{
+.superior{
     position: relative;
-    top: 28vh;
+    top: 22vh;
+    height: 100vh;
 }
 
-/* @media (min-width:767px) {
+@media (max-width:767px){
     .superior{
-        height: auto;
+        margin-top: 21vh;
     }
-} */
+}
