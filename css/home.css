@@ -6,6 +6,10 @@
     transform: scale(1.2);
 }
 
+header{
+    position: fixed;
+}
+
 .superior{
     position: relative;
     top: 22vh;
@@ -14,6 +18,15 @@
 
 @media (max-width:767px){
     .superior{
-        margin-top: 21vh;
+        margin-top: -8vh;
+    }
+
+    header{
+        padding: 2vh;
+        height: 3vh;
+    }
+
+    .logo{
+        margin-top: 2vh;
     }
 }
