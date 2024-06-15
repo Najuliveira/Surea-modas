@@ -8,6 +8,7 @@
 
 header{
     position: fixed;
+    height: auto;
 }
 
 .superior{
@@ -22,11 +23,10 @@ header{
     }
 
     header{
-        padding: 2vh;
-        height: 3vh;
+        height: 18vh;
     }
 
     .logo{
-        margin-top: 2vh;
+        margin-top: 3vh;
     }
 }
