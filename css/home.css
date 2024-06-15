@@ -17,6 +17,11 @@
     height: 100vh;
 }
 
+#carouselExampleCaptions{
+    max-width: 600px; 
+    margin: auto;
+}
+
 @media (max-width:767px){
     .superior{
         margin-top: -8vh;
@@ -30,3 +35,14 @@
         margin-top: 3vh;
     }
 }
+
+@media (min-width:768px){
+    #carouselExampleCaptions{
+        max-width: 200vh; 
+    }    
+
+    .carousel-item{
+        height: 50vh;
+    }
+}
+
