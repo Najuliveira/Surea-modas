@@ -14,7 +14,7 @@
 .superior{
     position: relative;
     top: 22vh;
-    height: 100vh;
+    height: 75vh;
 }
 
 #carouselExampleCaptions{
@@ -42,7 +42,7 @@
     }    
 
     .carousel-item{
-        height: 50vh;
+        height: 60vh;
     }
 }
 
