@@ -20,7 +20,7 @@
 		 }
 	})
 
-	$('.owl-mulher-item').owlCarousel({
+	$('.owl-marca-item').owlCarousel({
 		items:5,
 		loop:true,
 		dots: true,

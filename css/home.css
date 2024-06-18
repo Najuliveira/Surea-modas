@@ -57,12 +57,7 @@
     text-shadow: 0.1em 0.1em 0.05em #1a1919e0;
 }
 
-/* @media (max-width:1517px){
-    .titulo{
-        display: none;
-    }    
-
-    .subtitulo{
-        display: none;
-    }
-} */
+.marca-item{
+    width: 40vw;
+    height: 70vh;
+}
