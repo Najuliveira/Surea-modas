@@ -1,45 +1,7 @@
 (function ($) {
 	
 	"use strict";
-	$('.owl-men-item').owlCarousel({
-		items:5,
-		loop:true,
-		dots: true,
-		nav: true,
-		margin:30,
-		  responsive:{
-			  0:{
-				  items:1
-			  },
-			  600:{
-				  items:2
-			  },
-			  1000:{
-				  items:3
-			  }
-		 }
-	})
-
 	$('.owl-marca-item').owlCarousel({
-		items:5,
-		loop:true,
-		dots: true,
-		nav: true,
-		margin:30,
-		  responsive:{
-			  0:{
-				  items:1
-			  },
-			  600:{
-				  items:2
-			  },
-			  1000:{
-				  items:3
-			  }
-		 }
-	 })
-
-	$('.owl-kid-item').owlCarousel({
 		items:5,
 		loop:true,
 		dots: true,
@@ -125,7 +87,7 @@
 	       	var target = $(this.hash);
 	        $('html, body').stop().animate({
 	            scrollTop: (target.offset().top) - 79
-	        }, 500, 'swing', function () {
+	        }, 5, 'swing', function () {
 	            window.location.hash = target;
 	            $(document).on("scroll", onScroll);
 	        });

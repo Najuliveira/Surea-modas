@@ -730,57 +730,55 @@ banner
   margin-bottom: 20px;
 }
 
-
-
 /*
 ---------------------------------------------
-Men
+Marca1
 ---------------------------------------------
 */
 
-#men {
+#marca1 {
   padding-top: 90px;
   padding-bottom: 90px;
   border-bottom: 3px dotted #eee;
 }
 
-#men .section-heading {
+#marca1 .section-heading {
   margin-bottom: 60px;
 }
 
-#men .item .down-content {
+#marca1 .item .down-content {
   padding-top: 30px;
   position: relative;
   z-index: 3;
   background-color: #fff;
 }
 
-#men .item .down-content h4 {
+#marca1 .item .down-content h4 {
   font-size: 22px;
   color: #2a2a2a;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-#men .item .down-content span {
+#marca1 .item .down-content span {
   font-size: 18px;
   color: #a1a1a1;
   font-weight: 500;
   display: block;
 }
 
-#men .item .down-content ul.stars {
+#marca1 .item .down-content ul.stars {
   position: absolute;
   right: 0;
   top: 30px;
 }
 
-#men .item .down-content ul.stars li {
+#marca1 .item .down-content ul.stars li {
   display: inline;
   font-size: 13px;
 }
 
-#men .item .thumb .hover-content {
+#marca1 .item .thumb .hover-content {
   position: absolute;
   z-index: 2;
   text-align: center;
@@ -791,22 +789,22 @@ Men
   transition: all .5s;
 }
 
-#men .item .thumb:hover .hover-content {
+#marca1 .item .thumb:hover .hover-content {
   bottom: 30px;
   opacity: 1;
   visibility: visible;
 }
 
-#men .item .thumb {
+#marca1 .item .thumb {
   position: relative;
 }
 
-#men .item .thumb .hover-content ul li {
+#marca1 .item .thumb .hover-content ul li {
   display: inline;
   margin: 0px 10px;
 }
 
-#men .item .thumb .hover-content ul li a {
+#marca1 .item .thumb .hover-content ul li a {
   width: 50px;
   height: 50px;
   text-align: center;
@@ -817,7 +815,7 @@ Men
 }
 
 
-#men .owl-nav {
+#marca1 .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -825,22 +823,22 @@ Men
   transform: translateY(-25px);
 }
 
-#men .owl-dots {
+#marca1 .owl-dots {
   display: none;
 }
     
-#men .owl-nav .owl-prev{
+#marca1 .owl-nav .owl-prev{
   position: absolute;
   left: -80px;
   outline: none;
 }
 
-#men .owl-nav .owl-prev span,
-#men .owl-nav .owl-next span {
+#marca1 .owl-nav .owl-prev span,
+#marca1 .owl-nav .owl-next span {
   opacity: 0;
 }
 
-#men .owl-nav .owl-prev:before {
+#marca1 .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #2a2a2a;
@@ -854,192 +852,31 @@ Men
   border :1px solid #2a2a2a;
 }
 
-#men .owl-nav .owl-prev {
+#marca1 .owl-nav .owl-prev {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#men .owl-nav .owl-prev:hover {
+#marca1 .owl-nav .owl-prev:hover {
   opacity: 1;
 }
 
-#men .owl-nav .owl-next {
+#marca1 .owl-nav .owl-next {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#men .owl-nav .owl-next:hover {
+#marca1 .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#men .owl-nav .owl-next{
+#marca1 .owl-nav .owl-next{
   outline: none;
   position: absolute;
   right: -85px;
 }
 
-#men .owl-nav .owl-next:before {
-  display: inline-block;
-  font-family: 'FontAwesome';
-  color: #2a2a2a;
-  font-size: 25px;
-  font-weight: 700;
-  content: '\f105';
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  line-height: 48px;
-  border :1px solid #2a2a2a;
-}
-
-
-/*
----------------------------------------------
-Marca
----------------------------------------------
-*/
-
-#marca {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  border-bottom: 3px dotted #eee;
-}
-
-#marca .section-heading {
-  margin-bottom: 60px;
-}
-
-#marca .item .down-content {
-  padding-top: 30px;
-  position: relative;
-  z-index: 3;
-  background-color: #fff;
-}
-
-#marca .item .down-content h4 {
-  font-size: 22px;
-  color: #2a2a2a;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-#marca .item .down-content span {
-  font-size: 18px;
-  color: #a1a1a1;
-  font-weight: 500;
-  display: block;
-}
-
-#marca .item .down-content ul.stars {
-  position: absolute;
-  right: 0;
-  top: 30px;
-}
-
-#marca .item .down-content ul.stars li {
-  display: inline;
-  font-size: 13px;
-}
-
-#marca .item .thumb .hover-content {
-  position: absolute;
-  z-index: 2;
-  text-align: center;
-  bottom: -60px;
-  width: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .5s;
-}
-
-#marca .item .thumb:hover .hover-content {
-  bottom: 30px;
-  opacity: 1;
-  visibility: visible;
-}
-
-#marca .item .thumb {
-  position: relative;
-}
-
-#marca .item .thumb .hover-content ul li {
-  display: inline;
-  margin: 0px 10px;
-}
-
-#marca .item .thumb .hover-content ul li a {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  color: #2a2a2a;
-  background-color: #fff;
-}
-
-
-#marca .owl-nav {
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 40%;
-  transform: translateY(-25px);
-}
-
-#marca .owl-dots {
-  display: none;
-}
-    
-#marca .owl-nav .owl-prev{
-  position: absolute;
-  left: -80px;
-  outline: none;
-}
-
-#marca .owl-nav .owl-prev span,
-#marca .owl-nav .owl-next span {
-  opacity: 0;
-}
-
-#marca .owl-nav .owl-prev:before {
-  display: inline-block;
-  font-family: 'FontAwesome';
-  color: #2a2a2a;
-  font-size: 25px;
-  font-weight: 700;
-  content: '\f104';
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  line-height: 48px;
-  border :1px solid #2a2a2a;
-}
-
-#marca .owl-nav .owl-prev {
-  opacity: 0.75;
-  transition: all .5s;
-}
-
-#marca .owl-nav .owl-prev:hover {
-  opacity: 1;
-}
-
-#marca .owl-nav .owl-next {
-  opacity: 0.75;
-  transition: all .5s;
-}
-
-#marca .owl-nav .owl-next:hover {
-  opacity: 1;
-}
-
-#marca .owl-nav .owl-next{
-  outline: none;
-  position: absolute;
-  right: -85px;
-}
-
-#marca .owl-nav .owl-next:before {
+#marca1 .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #2a2a2a;
@@ -1055,53 +892,53 @@ Marca
 
 /*
 ---------------------------------------------
-Kids
+Marca2
 ---------------------------------------------
 */
 
-#kids {
+#marca2 {
   padding-top: 90px;
   padding-bottom: 90px;
   border-bottom: 3px dotted #eee;
 }
 
-#kids .section-heading {
+#marca2 .section-heading {
   margin-bottom: 60px;
 }
 
-#kids .item .down-content {
+#marca2 .item .down-content {
   padding-top: 30px;
   position: relative;
   z-index: 3;
   background-color: #fff;
 }
 
-#kids .item .down-content h4 {
+#marca2 .item .down-content h4 {
   font-size: 22px;
   color: #2a2a2a;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-#kids .item .down-content span {
+#marca2 .item .down-content span {
   font-size: 18px;
   color: #a1a1a1;
   font-weight: 500;
   display: block;
 }
 
-#kids .item .down-content ul.stars {
+#marca2 .item .down-content ul.stars {
   position: absolute;
   right: 0;
   top: 30px;
 }
 
-#kids .item .down-content ul.stars li {
+#marca2 .item .down-content ul.stars li {
   display: inline;
   font-size: 13px;
 }
 
-#kids .item .thumb .hover-content {
+#marca2 .item .thumb .hover-content {
   position: absolute;
   z-index: 2;
   text-align: center;
@@ -1112,22 +949,22 @@ Kids
   transition: all .5s;
 }
 
-#kids .item .thumb:hover .hover-content {
+#marca2 .item .thumb:hover .hover-content {
   bottom: 30px;
   opacity: 1;
   visibility: visible;
 }
 
-#kids .item .thumb {
+#marca2 .item .thumb {
   position: relative;
 }
 
-#kids .item .thumb .hover-content ul li {
+#marca2 .item .thumb .hover-content ul li {
   display: inline;
   margin: 0px 10px;
 }
 
-#kids .item .thumb .hover-content ul li a {
+#marca2 .item .thumb .hover-content ul li a {
   width: 50px;
   height: 50px;
   text-align: center;
@@ -1138,7 +975,7 @@ Kids
 }
 
 
-#kids .owl-nav {
+#marca2 .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -1146,22 +983,22 @@ Kids
   transform: translateY(-25px);
 }
 
-#kids .owl-dots {
+#marca2 .owl-dots {
   display: none;
 }
     
-#kids .owl-nav .owl-prev{
+#marca2 .owl-nav .owl-prev{
   position: absolute;
   left: -80px;
   outline: none;
 }
 
-#kids .owl-nav .owl-prev span,
-#kids .owl-nav .owl-next span {
+#marca2 .owl-nav .owl-prev span,
+#marca2 .owl-nav .owl-next span {
   opacity: 0;
 }
 
-#kids .owl-nav .owl-prev:before {
+#marca2 .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #2a2a2a;
@@ -1175,31 +1012,31 @@ Kids
   border :1px solid #2a2a2a;
 }
 
-#kids .owl-nav .owl-prev {
+#marca2 .owl-nav .owl-prev {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#kids .owl-nav .owl-prev:hover {
+#marca2 .owl-nav .owl-prev:hover {
   opacity: 1;
 }
 
-#kids .owl-nav .owl-next {
+#marca2 .owl-nav .owl-next {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#kids .owl-nav .owl-next:hover {
+#marca2 .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#kids .owl-nav .owl-next{
+#marca2 .owl-nav .owl-next{
   outline: none;
   position: absolute;
   right: -85px;
 }
 
-#kids .owl-nav .owl-next:before {
+#marca2 .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #2a2a2a;
@@ -1213,6 +1050,325 @@ Kids
   border :1px solid #2a2a2a;
 }
 
+/*
+---------------------------------------------
+Marca3
+---------------------------------------------
+*/
+
+#marca3 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-bottom: 3px dotted #eee;
+}
+
+#marca3 .section-heading {
+  margin-bottom: 60px;
+}
+
+#marca3 .item .down-content {
+  padding-top: 30px;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+#marca3 .item .down-content h4 {
+  font-size: 22px;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#marca3 .item .down-content span {
+  font-size: 18px;
+  color: #a1a1a1;
+  font-weight: 500;
+  display: block;
+}
+
+#marca3 .item .down-content ul.stars {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+#marca3 .item .down-content ul.stars li {
+  display: inline;
+  font-size: 13px;
+}
+
+#marca3 .item .thumb .hover-content {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  bottom: -60px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+#marca3 .item .thumb:hover .hover-content {
+  bottom: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#marca3 .item .thumb {
+  position: relative;
+}
+
+#marca3 .item .thumb .hover-content ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+#marca3 .item .thumb .hover-content ul li a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  color: #2a2a2a;
+  background-color: #fff;
+}
+
+
+#marca3 .owl-nav {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  transform: translateY(-25px);
+}
+
+#marca3 .owl-dots {
+  display: none;
+}
+    
+#marca3 .owl-nav .owl-prev{
+  position: absolute;
+  left: -80px;
+  outline: none;
+}
+
+#marca3 .owl-nav .owl-prev span,
+#marca3 .owl-nav .owl-next span {
+  opacity: 0;
+}
+
+#marca3 .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #2a2a2a;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f104';
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  line-height: 48px;
+  border :1px solid #2a2a2a;
+}
+
+#marca3 .owl-nav .owl-prev {
+  opacity: 0.75;
+  transition: all .5s;
+}
+
+#marca3 .owl-nav .owl-prev:hover {
+  opacity: 1;
+}
+
+#marca3 .owl-nav .owl-next {
+  opacity: 0.75;
+  transition: all .5s;
+}
+
+#marca3 .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+
+#marca3 .owl-nav .owl-next{
+  outline: none;
+  position: absolute;
+  right: -85px;
+}
+
+#marca3 .owl-nav .owl-next:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #2a2a2a;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f105';
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  line-height: 48px;
+  border :1px solid #2a2a2a;
+}
+
+/*
+---------------------------------------------
+Marca4
+---------------------------------------------
+*/
+
+#marca4 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-bottom: 3px dotted #eee;
+}
+
+#marca4 .section-heading {
+  margin-bottom: 60px;
+}
+
+#marca4 .item .down-content {
+  padding-top: 30px;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+#marca4 .item .down-content h4 {
+  font-size: 22px;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#marca4 .item .down-content span {
+  font-size: 18px;
+  color: #a1a1a1;
+  font-weight: 500;
+  display: block;
+}
+
+#marca4 .item .down-content ul.stars {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+#marca4 .item .down-content ul.stars li {
+  display: inline;
+  font-size: 13px;
+}
+
+#marca4 .item .thumb .hover-content {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  bottom: -60px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+#marca4 .item .thumb:hover .hover-content {
+  bottom: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#marca4 .item .thumb {
+  position: relative;
+}
+
+#marca4 .item .thumb .hover-content ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+#marca4 .item .thumb .hover-content ul li a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  color: #2a2a2a;
+  background-color: #fff;
+}
+
+
+#marca4 .owl-nav {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  transform: translateY(-25px);
+}
+
+#marca4 .owl-dots {
+  display: none;
+}
+    
+#marca4 .owl-nav .owl-prev{
+  position: absolute;
+  left: -80px;
+  outline: none;
+}
+
+#marca4 .owl-nav .owl-prev span,
+#marca4 .owl-nav .owl-next span {
+  opacity: 0;
+}
+
+#marca4 .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #2a2a2a;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f104';
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  line-height: 48px;
+  border :1px solid #2a2a2a;
+}
+
+#marca4 .owl-nav .owl-prev {
+  opacity: 0.75;
+  transition: all .5s;
+}
+
+#marca4 .owl-nav .owl-prev:hover {
+  opacity: 1;
+}
+
+#marca4 .owl-nav .owl-next {
+  opacity: 0.75;
+  transition: all .5s;
+}
+
+#marca4 .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+
+#marca4 .owl-nav .owl-next{
+  outline: none;
+  position: absolute;
+  right: -85px;
+}
+
+#marca4 .owl-nav .owl-next:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #2a2a2a;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f105';
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  line-height: 48px;
+  border :1px solid #2a2a2a;
+}
 
 /*
 ---------------------------------------------
