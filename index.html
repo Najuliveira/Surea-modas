@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-    <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/home.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel.css">
-        <link rel="stylesheet" href="assets/css/lightbox.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
 
     <title>Suréa Carfani</title>
-    <!-- <header class="navbar header-area d-flex"> -->
+
+    <!-- NAVBAR  -->
       <div class="navbar header-area d-flex">
         <div class="container d-flex flex-column align-items-center justify-content-center">
             <nav class="main-nav w-100">
@@ -33,7 +32,9 @@
              </nav>
         </div>
       </div>
-<!-- </header> -->
+      <!-- FIM DA NAVBAR -->
+
+<!-- CARROSSEL -->
 <div class="superior"> 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -42,38 +43,49 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagens/logo.png" class="d-block w-100 h-30"alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          <!-- SLIDE DA PRIMEIRA FOTO -->
+            <div class="carousel-item active">
+                <img src="imagens/loja2.jpeg" class="d-block w-100 h-30"alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo"><b>Segurança, conforto e estilo</b></h5>
+                    <p class="subtitulo"><b>Estão presentes na nossa loja.</b></p>
+                </div>
             </div>
-          </div>
+          <!-- FIM DO SLIDE DA PRIMEIRA FOTO -->
+
+          <!-- SLIDE DA SEGUNDA FOTO -->
           <div class="carousel-item">
-            <img src="imagens/escritaLogo.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+                <img src="imagens/loja3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo"><b>Sinta-se em casa!</b></h5>
+                    <p class="subtitulo"><b>Venha nos conhecer</b></p>
+                </div>
           </div>
+          <!-- FIM DO SLIDE DA PRIMEIRA FOTO -->
+
+          <!-- SLIDE DA SEGUNDA FOTO -->
           <div class="carousel-item">
-            <img src="imagens/oficina.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+            <img src="imagens/loja1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo"><b>Você em primeiro lugar!!!</b></h5>
+                    <p class="subtitulo"><b>Pensamos em você</b></p>
+                </div>
           </div>
+          <!-- FIM DO SLIDE DA PRIMEIRA FOTO -->
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev seta-esquerda" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Antes</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next seta-direita" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Depois</span>
         </button>
       </div>
 </div>
+<!-- FIM DO CARROSSEL -->
+
+<!-- SEÇÃO DA MARCA 1  -->
 <section class="section" id="women">
   <div class="container">
       <div class="row">
@@ -188,28 +200,44 @@
       </div>
   </div>
 </section>
-
+<!-- FIM DA SESSÃO DA MARCA 1 -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
      <!-- jQuery -->
      <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>    
+     <!-- Bootstrap -->
+     <script src="assets/js/popper.js"></script>
+     <script src="assets/js/bootstrap.min.js"></script>    
 
-        <script src="assets/js/owl-carousel.js"></script>
-        <script src="assets/js/accordions.js"></script>
-        <script src="assets/js/datepicker.js"></script>
-        <script src="assets/js/scrollreveal.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/imgfix.min.js"></script> 
-        <script src="assets/js/slick.js"></script> 
-        <script src="assets/js/lightbox.js"></script> 
-        <script src="assets/js/isotope.js"></script> 
+     <!-- Plugins -->
+     <script src="assets/js/owl-carousel.js"></script>
+     <script src="assets/js/accordions.js"></script>
+     <script src="assets/js/datepicker.js"></script>
+     <script src="assets/js/scrollreveal.min.js"></script>
+     <script src="assets/js/waypoints.min.js"></script>
+     <script src="assets/js/jquery.counterup.min.js"></script>
+     <script src="assets/js/imgfix.min.js"></script> 
+     <script src="assets/js/slick.js"></script> 
+     <script src="assets/js/lightbox.js"></script> 
+     <script src="assets/js/isotope.js"></script> 
 
-        <script src="assets/js/custom.js"></script>
-
-    </body>
-
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+ 
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+ 
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+ 
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+ 
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+   
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+</body>
 </html>
