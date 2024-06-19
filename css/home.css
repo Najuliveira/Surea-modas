@@ -66,3 +66,8 @@
     width: 40vw;
     height: 70vh;
 }
+
+.rwb-tooltip{
+    background-color: green !important;
+    color: white !important;
+}

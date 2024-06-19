@@ -149,7 +149,7 @@
 }
 :root .fa-rotate-90,
 :root .fa-rotate-180,
-:root .fa-rotate-270,
+:root .-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   filter: none;
@@ -557,6 +557,12 @@
 .fa-twitter-square:before {
   content: "\f081";
 }
+.fa-whatsapp-square:before {
+  content: "\f081";
+}
+.fa-instagram-square:before {
+  content: "\f081";
+}
 .fa-facebook-square:before {
   content: "\f082";
 }
@@ -625,6 +631,15 @@
   content: "\f098";
 }
 .fa-twitter:before {
+  content: "\f099";
+}
+.fa-whatsapp:before {
+  content: "\f099";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-instagram:before {
   content: "\f099";
 }
 .fa-facebook-f:before,
