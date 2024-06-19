@@ -17,6 +17,11 @@
     height: 75vh;
 }
 
+.logoRodape{
+    position: relative;
+    left: 0vh;
+}
+
 #carouselExampleCaptions{
     max-width: 600px; 
     margin: auto;
