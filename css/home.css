@@ -48,14 +48,30 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 319px) {
+    .section#marca1 {
+        padding-top: 0;
+        margin-top: -20vh; 
+    }
+
+    .superior{
+       height: 32vh !important;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
     .section#marca1 {
         padding-top: 0;
         margin-top: -18vh; 
     }
 }
 
-
+@media (min-width: 375px) and (max-width: 374px) {
+    .section#marca1 {
+        padding-top: 0;
+        margin-top: -22vh; 
+    }
+}
 
 @media (min-width:768px) {
     .navbar .logo {
