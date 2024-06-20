@@ -77,7 +77,7 @@
     position: fixed;
     bottom: 20px; 
     left: 5vh; 
-    z-index: 99; /* Certifique-se de que ele fique na frente de outros elementos */
+    z-index: 99; 
     background-color: #ffffff00;
     border: none; 
     outline: none; 
@@ -91,4 +91,32 @@
 #topBtn img {
     width: 3vh; 
     height: 3vh; 
+}
+
+#robbu-whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999; 
+}
+
+.rwb-tooltip {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    background-color: #25d366;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: none;
+}
+
+#robbu-whatsapp-button:hover .rwb-tooltip {
+    display: block;
+}
+
+.star-yellow {
+    color: yellow;
 }

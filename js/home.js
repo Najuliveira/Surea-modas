@@ -1,3 +1,4 @@
+// SCRIPT DO BOTÃO DE VOLTAR 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -8,8 +9,18 @@ function scrollFunction() {
     }
 }
 
-// Quando o usuário clicar no botão, rolar até o topo da página
 function topFunction() {
     document.body.scrollTop = 0; // Para Safari
     document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
 }
+// FIM DO SCRIPT DO BOTÃO DE VOLTAR 
+
+// SCRIPT MUDAR COR DA ESTRELA
+document.querySelectorAll('.hover-content .fa-star').forEach(star => {
+    star.addEventListener('click', function() {
+        const downContentStars = this.closest('.item').querySelector('.down-content .stars .fa-star');
+
+        downContentStars.classList.toggle('star-yellow');
+    });
+});
+// FIM DO SCRIPT DE MUDAR COR DA ESTRELA
