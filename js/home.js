@@ -24,3 +24,12 @@ document.querySelectorAll('.hover-content .fa-star').forEach(star => {
     });
 });
 // FIM DO SCRIPT DE MUDAR COR DA ESTRELA
+
+// SCRIPT DE PUXAR A NAVBAR PRA CIMA 
+document.getElementById('navbarToggle').addEventListener('click', function() {
+    var navbarContent = document.getElementById('navbarContent');
+    var toggleButton = this;
+    navbarContent.classList.toggle('collapsed');
+    toggleButton.classList.toggle('collapsed');
+});
+// FIM DO SCRIPT DE PUXAR A NAVBAR PRA CIMA 

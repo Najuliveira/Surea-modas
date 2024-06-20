@@ -120,3 +120,31 @@
 .star-yellow {
     color: yellow;
 }
+
+#navbarContent {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 500px; 
+}
+
+#navbarContent.collapsed {
+    max-height: 0;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 3vh;
+    margin-top: 3vh;
+}
+
+.navbar-toggler span {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler.collapsed span {
+    transform: rotate(180deg);
+}
