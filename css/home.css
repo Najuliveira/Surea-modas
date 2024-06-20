@@ -71,3 +71,24 @@
     background-color: green !important;
     color: white !important;
 }
+
+#topBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    left: 5vh; 
+    z-index: 99; /* Certifique-se de que ele fique na frente de outros elementos */
+    background-color: #ffffff00;
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+}
+
+#topBtn:hover {
+    background-color: #cfcfcf; 
+}
+
+#topBtn img {
+    width: 3vh; 
+    height: 3vh; 
+}
