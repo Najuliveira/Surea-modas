@@ -204,3 +204,10 @@
 .navbar-toggler.collapsed span {
     transform: rotate(180deg);
 }
+
+
+.sobre{
+    width: 30vw;
+    height: 30vh;
+    margin-top: 3rem;
+}
